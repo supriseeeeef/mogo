@@ -1,0 +1,26 @@
+.main-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 58px;
+    margin-top: 65px;
+    &__title{
+        font-family: $montserrat-font;
+        color: $text-color;
+        font-size: 14px;
+        margin-left: 50px;
+        margin-top: -40px;
+    }
+    &__paragraph{
+        font-family: $roboto-font;
+        margin-left: 50px;
+        margin-top: 19px;
+        color: $paragraph-color;
+    }
+}
+@media (max-width: 480px){
+    .main-list{
+        margin-left: 0;
+        padding-left: 0;
+        gap: 20px;
+    }
+}
